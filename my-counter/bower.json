@@ -1,0 +1,20 @@
+{
+  "name": "my-counter",
+  "version": "0.0.0",
+  "authors": [
+    "Ryan Anderson <anderson.ryanc@gmail.com>"
+  ],
+  "description": "A simple test element learning experiment",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.3"
+  }
+}

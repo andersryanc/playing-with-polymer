@@ -1,0 +1,16 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="my-counter" attributes="count">
+	<template>
+		<button on-click="{{increment}}">{{ count }} <content></content></button>
+	</template>
+	<script>
+	Polymer('my-counter', {
+		count: 0,
+		increment: function(event, detail, sender) {
+			console.log(event, detail, sender);
+			++this.count;
+		}
+	});
+	</script>
+</polymer-element>
